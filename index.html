@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My map</title>
+    <link rel='stylesheet' type='text/css' href='sdk/map.css' />
+    <script src='sdk/tomtom.min.js'></script>
+</head>
+
+<body>
+    <div id='map' style='height:500px;width:500px'></div>
+    <script>
+        tomtom.setProductInfo('test', '1.0');
+        tomtom.L.map('map', {
+            key: 'BhGJjnrm4jsDr2FYJ1dB8wD3iZBB0RpD',
+                    // source: 'vector',
+                    // basePath: './sdk/'
+    });
+    </script>
+</body>
+
+</html>

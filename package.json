@@ -1,0 +1,22 @@
+{
+  "name": "tomtom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xploryo/tomtom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xploryo/tomtom/issues"
+  },
+  "homepage": "https://github.com/Xploryo/tomtom#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
